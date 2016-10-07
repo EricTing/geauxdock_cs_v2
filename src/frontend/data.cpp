@@ -533,13 +533,13 @@ getLigCode (std::string r_name)
 {
   if (r_name == "Br")
     return 0;
-  else if (r_name == "C.1")
+  else if (r_name == "C.1" || r_name == "C1")
     return 1;
-  else if (r_name == "C.2")
+  else if (r_name == "C.2" || r_name == "C2")
     return 2;
-  else if (r_name == "C.3")
+  else if (r_name == "C.3" || r_name == "C3")
     return 3;
-  else if (r_name == "C.ar")
+  else if (r_name == "C.ar" || r_name == Car)
     return 4;
   else if (r_name == "C.cat")
     return 5;
@@ -557,13 +557,13 @@ getLigCode (std::string r_name)
     return 11;
   else if (r_name == "N.4")
     return 12;
-  else if (r_name == "N.am")
+  else if (r_name == "N.am" || r_name == "Nam")
     return 13;
   else if (r_name == "N.ar")
     return 14;
   else if (r_name == "N.pl3")
     return 15;
-  else if (r_name == "O.2")
+  else if (r_name == "O.2" || r_name == "O2")
     return 16;
   else if (r_name == "O.3")
     return 17;
